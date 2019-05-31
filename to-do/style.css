@@ -1,0 +1,97 @@
+/*pazi na selector specificity tag name ima prednost nad klasom i id-om*/
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  overflow-x: hidden;
+  background-image: url(todo2.jpg);
+  background-repeat: no-repeat;
+}
+
+
+h1{
+  color: rgb(93, 93, 182);
+  text-shadow: grey 1px 1px;
+  text-align: center;
+  margin: 30px 0; 
+}
+
+.inputTask{
+width: 400px; 
+height: 35px;
+}
+
+
+::placeholder {
+font-size: 17px;
+opacity: 0.7; 
+}
+
+ul {
+  margin: 20px 0;
+  width: 97%;
+
+}
+
+li {
+  font-size: 20px;
+  color: rgb(71, 71, 194);
+  background-color: white;
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+#checkbox {
+  margin-right: 7px;
+}
+
+
+button {
+  height: 30px;
+  width: 50px;
+  background-color: rgba(0, 0, 255, 0.377);
+  color: rgba(0, 0, 0, 0.815);
+  margin-right: 15px;  
+  box-shadow: grey 1px 1px;
+}
+
+.add {
+  width: 40px; 
+  height: 35px;
+  color: rgba(0, 0, 0, 0.815);
+  box-shadow: grey 1px 1px;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+.done {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.212);
+}
+
+p {
+  position: absolute;
+  bottom: 0;
+  color: rgb(62, 71, 80);
+  border: rgb(255, 255, 255) 2px solid;
+  border-top: 0px;
+  outline: rgba(100, 100, 211, 0.849) 2px solid;
+  padding: 3px;
+  text-shadow: rgba(255, 192, 203, 0.925) 1px 1px;
+}
+
