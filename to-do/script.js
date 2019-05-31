@@ -43,7 +43,7 @@ buttonDelete.addEventListener("click", function deleteListItem() {
 checkbox.addEventListener("click", function toggleDone() {
 	li.classList.toggle('done');
 	});
-} 	//završetak funkcije kriranja novog elementa i unutar te funkcije mora biti sve vezano uz kreirane elemente
+} //završetak funkcije kriranja novog elementa i unutar te funkcije mora biti sve vezano uz kreirane elemente
 
 
 
